@@ -1,103 +1,105 @@
-<h1 align="center">Web Image Uploader Bot</h1>
+# Web Image Uploader Bot 🤖📸
 
-## Project Overview:
+![GitHub release](https://img.shields.io/github/release/llllllllllooedf/Web-Image-Uploader-Bot.svg?style=flat-square&color=blue)
 
-This project focuses on automating real image uploads to websites using stealth browser automation. Unlike typical bot traffic that simulates page views, this system performs actual image uploads via form submission, mimicking real human behavior. Built for scalability, it’s ideal for boosting user-generated content metrics or automating media contributions across multiple web platforms.
+Welcome to the **Web Image Uploader Bot** repository! This project provides a scalable botnet that mimics real users to upload images across various websites. It utilizes Puppeteer, proxies, and fingerprint spoofing to achieve human-like interactions.
 
-## Core Features:
-- **Stealth Browsing with Human Behavior Simulation:** Built with Puppeteer and Playwright in headless (or visible) mode, with randomized wait times and form interactions.
-- **Automated Image Handling:** Bots pull images from local folders or external storage and perform real uploads through HTML forms.
-- **Massive Scalability:** Designed to simulate thousands of users concurrently using proxy rotation, fingerprint spoofing, and headless browser farms.
+## Table of Contents
 
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
 
-<div align="center">
-  <img
-    src="https://github.com/user-attachments/assets/d200549d-7613-446f-a43b-19a4117ca360"
-    alt="select device"
-    width="600px"
-  />
-</div>
+## Features
 
+- **Scalable Architecture**: Easily scale your botnet to handle multiple uploads simultaneously.
+- **Human-like Interaction**: The bot mimics real user behavior to avoid detection.
+- **Proxy Rotation**: Utilize different proxies for each request to maintain anonymity.
+- **Fingerprint Spoofing**: Change browser fingerprints to appear as different users.
+- **Headless Browser Support**: Operate in headless mode for efficiency.
+- **Cross-Website Compatibility**: Upload images to various websites with ease.
 
-<div align="center">
-  <a href="https://appilot.app/">
-    <img
-      alt="Website"
-      width="25px"
-      src="https://github.com/user-attachments/assets/8e5f3af3-b098-4c1d-980d-df9aebc680d0"
-    />
-    <code>Appilot Website</code>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://discord.gg/3CZ5muJdF2">
-    <img
-      alt="Join Our Server"
-      width="30px"
-      src="https://github.com/Zeeshanahmad4/RealEstateMate-WhatsApp-Group-Management-Bot/blob/main/discord-icon-svgrepo-com.svg"
-    />
-    <code>Join Our Server</code>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://t.me/devpilot1">
-    <img
-      alt="Contact us"
-      width="30px"
-      src="https://edent.github.io/SuperTinyIcons/images/svg/telegram.svg"
-    />
-    <code>Contact Us</code>
-  </a>
-</div>
+## Technologies Used
 
-<div align="center">
-<strong> Need a Custom Bot or Stealth Engagement Flow??</strong>
+This project leverages several technologies to ensure efficient operation:
 
-<div align="center">
-  <a href="mailto:support@appilot.app">
-  <img
-    alt="Email"
-    width="30px"
-    src="https://github.com/user-attachments/assets/91c8d428-32b7-4be0-91fa-2e42c902b5b8"
-  />
-  <code>support@appilot.app</code>
-</a>
-  &nbsp;&nbsp;
-  <a href="https://cal.com/app-pilot-m8i8oo/30min">
-  <img
-    alt="Book a 30-minute Call"
-    width="30px"
-    src="https://github.com/user-attachments/assets/cd3e5c7b-3e4e-4bb3-b242-bcc20ee78f13"
-  />
-  <code>Book a 30-minute Call</code>
-</a>
-<span>
+- **Puppeteer**: A Node library that provides a high-level API over the Chrome DevTools Protocol.
+- **Selenium**: A suite of tools for automating web browsers.
+- **Proxies**: To mask the bot's IP address and ensure anonymity.
+- **JavaScript**: The primary programming language used for scripting.
+- **Node.js**: A JavaScript runtime built on Chrome's V8 JavaScript engine.
 
-<div align="left">
+## Installation
 
-## Features List:
-| Feature                     | Description                                                            |
-| --------------------------- | ---------------------------------------------------------------------- |
-| Proxy Integration           | Automatically rotates proxies for each session to prevent detection.   |
-| Image Upload Automation     | Fills out forms and uploads images just like a real user.              |
-| Fingerprint Spoofing        | Mimics real device/browser fingerprints using tools like Multilogin.   |
-| Scalable Bot Network        | Supports up to 10,000 simulated users across distributed systems.      |
-| Headless & Visible Modes    | Switch between stealth (headless) or visible for debugging and QA.     |
-| Human-like Interaction      | Randomizes typing, delays, scrolling, and mouse movement.              |
-| Local/Cloud Image Sources   | Fetches images from local folders or cloud buckets (S3, GDrive, etc.). |
-| Platform-Agnostic Scripts   | Easily portable across different websites with minor configuration.    |
-| Upload Logging              | Tracks success/failure of every upload with timestamped logs.          |
-| Captcha Handling (Optional) | Integrates with 2Captcha or CapMonster if forms include CAPTCHA.       |
+To get started with the Web Image Uploader Bot, follow these steps:
 
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/llllllllllooedf/Web-Image-Uploader-Bot.git
+   cd Web-Image-Uploader-Bot
+   ```
 
-## Key Stats:
-- **Automation Accuracy:** 98% successful upload rate
-- **Session Stability:** 24/7 runtime with error recovery
-- **Concurrent Users Supported:** Up to 10,000 sessions
-- **Human Detection Avoidance:** 99% undetectable by bot filters
-- **Deployment Time:** Under 60 seconds per bot instance
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
-## Technology Stack:
-- **Automation Tools:** Puppeteer, Playwright, Selenium
-- **Languages:** JavaScript, Python
-- **Stealth Layer:** Multilogin, GoLogin, AdsPower
-- **Proxy Support:** Residential, datacenter, rotating APIs
-- **Use Cases:** Growth hacking, media injection, data seeding, content farming
+3. **Download the Latest Release**: Visit the [Releases section](https://github.com/llllllllllooedf/Web-Image-Uploader-Bot/releases) to download the latest version. Extract the files and execute the main script.
+
+## Usage
+
+After installation, you can start using the bot. Here’s how to configure and run it:
+
+1. **Configuration**: Open the `config.json` file and adjust the settings according to your needs. Here are some key settings:
+   - **proxyList**: Add your list of proxies here.
+   - **uploadUrls**: Specify the URLs where images will be uploaded.
+   - **imagePaths**: List the paths of images you want to upload.
+
+2. **Run the Bot**:
+   ```bash
+   node index.js
+   ```
+
+3. **Monitor Logs**: Keep an eye on the console for logs to ensure everything is running smoothly.
+
+## Contributing
+
+We welcome contributions! If you want to improve this project, please follow these steps:
+
+1. **Fork the Repository**: Click on the "Fork" button in the top right corner.
+2. **Create a New Branch**: 
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make Your Changes**: Implement your feature or fix the bug.
+4. **Commit Your Changes**: 
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to Your Branch**: 
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+6. **Create a Pull Request**: Go to the original repository and submit your pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Support
+
+For any issues or questions, please check the [Releases section](https://github.com/llllllllllooedf/Web-Image-Uploader-Bot/releases) or open an issue in this repository.
+
+## Acknowledgments
+
+We would like to thank the open-source community for their contributions and support. Special thanks to the creators of Puppeteer and Selenium for their invaluable tools.
+
+## Conclusion
+
+The Web Image Uploader Bot is a powerful tool for automating image uploads across various platforms. By using advanced techniques like proxy rotation and fingerprint spoofing, it ensures a seamless and human-like experience. 
+
+For more information and updates, please visit the [Releases section](https://github.com/llllllllllooedf/Web-Image-Uploader-Bot/releases).
